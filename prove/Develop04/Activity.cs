@@ -95,7 +95,7 @@ public class Activity
 
         using (sw)
         {
-            sw.WriteLine($"{date}:{_name} Activity:{_duration}");
+            sw.WriteLine($"{date},{_name} Activity,{_duration}");
         }
     }
 

@@ -17,7 +17,9 @@ public class BreathingActivity : Activity
             ShowCountDown(2);
             Console.WriteLine(" ");
             Console.WriteLine("Now Breath Out... ");
-            ShowCountDown(2);
+            ShowCountDown(2);                
+            
+            
         }
                 
         DisplayEndingMessage();
