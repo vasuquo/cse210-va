@@ -1,0 +1,5 @@
+1000
+CheckListGoal:Go to temple:Visit temple with Liberty ward members:600:500:3:3
+SimpleGoal:Sacrament meeting:Attend sacrament meeting next sunday:50:True
+EternalGoal:Scripture study:Daily scripture study for 10 mints at least:100
+SelfRelianceGoal:Financial self reliance:To be self reliance financially:200:36:0
