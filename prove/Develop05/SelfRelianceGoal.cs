@@ -24,10 +24,19 @@ public class SelfRelianceGoal : Goal
     public override string GetDetailsString()
     {
         string detailString = $"{GetShortName()} ({GetDescription()})";
-        string subDetails = "Self Reliance Options:";
+        string subDetails = "\nSelf Reliance Options:";
+        string checkIt = " ";
         for (int i=0; i<_goalTypes.Count; i++)
         {
-            subDetails += $"\n {i+1} {_goalTypes[i]}";            
+            if (_duration == 0 && i == _index)
+            {
+                checkIt = "X";
+            }
+            else
+            {
+                checkIt = " ";
+            }
+            subDetails += $"\n {i+1}. [{checkIt}] {_goalTypes[i]}";            
         }
         return detailString + subDetails;        
     }

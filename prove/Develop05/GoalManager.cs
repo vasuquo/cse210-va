@@ -146,6 +146,7 @@ public class GoalManager
     {
         int i = 0;
         int option;
+        Console.Clear();
         Console.WriteLine("The goals are:");
         foreach (Goal goal in _goals)
         {            
